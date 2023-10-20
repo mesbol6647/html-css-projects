@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+ 
+  width:80% ; /* Genişlik */
+  height: 80%; /* Yükseklik */
+  background-color: #272626; /* Renk */
+  margin: 50px auto; 
+  text-align: center; 
+  line-height: 200px; 
+  color: #272626; 
+  font-size: 24px; 
+  border-radius: 20px;
+}
+#img-div{
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+#martin {
+  
+  width: 400px;
+  /* height: 266px; */
+  border-radius: 40px;
+  box-shadow: 50px 50px 500px red;
+  margin-bottom: 10px;
+}
+.baslık {
+  text-align: center;
+  color: white;
+  /* font-family: "Electrolize", sans-serif; */
+  font-family: "Lobster", cursive;
+  font-size: 90px;
+  font-weight: 700;
+}
+.span{
+  text-align: center;
+  color: red;
+  font-family: "Lobster", cursive;
+  font-size: 90px;
+  font-weight: 700;
+  height: 50px;
+}
+
+.date {
+  
+  color: white;
+  margin-top: 10px;
+}
+
+#info {
+  color: white;
+  line-height: normal;
+  text-align: justify;
+  margin: 20px 50px;
+}
+h4 {
+  color: red;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 50px;
+  font-family: "Lobster", cursive;
+  line-height: 50px;
+}
+
+ul {
+  color: white;
+  line-height: 30px;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#footer{
+    color: white;
+    margin: 2rem;
+    padding:2rem;
+    text-align:center ;
+    font-size: 2rem;
+    line-height: 50px;
+}
+#link{
+    text-decoration: none;
+    color: white;
+    border: 2px solid darkorange;
+    padding: 1rem;
+    border-radius:10px ;
+    background-color: black;
+}
+#link:hover{
+    background-color: gray;
+    color: red;
+}
