@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+.container1, .container2{
+    margin: 10px auto;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 1fr;
+	/* border: 2px solid yellow;  */
+	gap: 1rem;
+	text-align: left;
+}
+
+.content{
+    background-color: skyblue;
+    border: 1px solid black;
+ 
+}
+
+.content1 img{
+    height: 100%;
+    
+}
+
+.content1{
+background-color: olive;
+
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content6{
+    background-image: url("https://picsum.photos/id/598/600/400");
+    background-position: center;
+    background-size: cover;
+    color: yellow;
+    padding: 10px;
+    
+}
+
+.content8{
+    background-image: url("../img/owl.png");
+    background-position: center;
+    background-size: cover;
+}

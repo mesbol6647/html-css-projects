@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EFEFEF;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+ background-color: #F6F6F6;
+ display: flex;
+ height: 96%;
+ width: 96%;
+ box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+ padding: 1rem 0px;
+}
+
+.card{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+div.img{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+div.img img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+
+}
+
+div.about-product{
+  flex: 1;
+ /* margin: 1rem; */
+ color: #474747;
+ margin: 2rem 0;
+ padding: 0 5rem;
+ }
+
+ .part1-productName .header{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+   
+}
+
+.part1-productName .header h2{
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.part1-productName .header p{
+    background-color: #2175F5;
+    padding: 3px 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.apple{
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 1rem;
+}
+ 
+.part2-productInfo .info{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.part2-productInfo .info-text{
+   font-size: 17px;
+   list-style-type: none;
+   margin-bottom: 1rem;
+} 
+
+/* -------------------------------------------------------------------------- */
+/*                                   part-3                                   */
+/* -------------------------------------------------------------------------- */
+
+.part3-productStorage h2{
+    font-weight: 600 ;
+    font-size: 19px;
+}
+
+.memory{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    gap: 1rem;
+    
+}
+
+.memory li{
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    background-color: #EEEEEE;
+    font-weight: 500;
+    color: black;
+    text-align:center ;
+    padding-top: 8px;
+    cursor: pointer;
+
+}
+
+.memory .tb{
+    background-color: #2175F5;
+    color: white;
+}
+
+.addToCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.addToCard button{
+    background-color: #2175F5;
+    padding: 1rem;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    letter-spacing: 1;
+    outline: none;
+    cursor: pointer;
+}
+
+.addToCard p{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 11px 16px;
+  
+  
+}
+
+.addToCard button i{
+    margin-right: 0.3rem;
+}
+
+@media screen and (max-width:1200px) {
+  .container{
+    width: 1000px;
+    height: 500px;
+    padding: 0;
+    background-color: #F3F3F3;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.4);
+    margin: 0  3rem;
+  }
+.card{ 
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.4);
+  
+
+}
+
+div.img{
+    flex: 1.3;
+}
+div.about-product{
+    
+    box-shadow: 3px 5px 35px rgba(0, 0, 0, 0.4);
+    height: 100%;
+    flex: 1;
+    font-size: 1rem;
+   padding-left: 3rem;
+  
+   padding-top: 2rem;
+    
+  }
+
+  .part2-productInfo .info-text .clip{
+  display: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ }
+
+ .part2-productInfo .info-text .dot::after{
+    content: '...';
+ }
+
+
+.part2-productInfo .info-text{
+    font-size: 16px;
+    color: gray;
+ }
+  
+}
+@media screen and (max-width:992px){
+
+body{
+    padding-top: 0;
+    align-items:first baseline;
+
+} 
+
+
+.card{
+     flex-direction: column; 
+     flex-wrap: wrap; 
+ 
+}
+
+div.img {
+   
+flex-basis: 100%;
+margin: 0;
+
+    
+    }
+
+div.about-product{
+       
+        margin: 1rem; 
+        background-color: white;
+       padding: 0 5rem;
+       box-shadow: none;
+       margin: 0;
+        
+      }
+ div.img img{
+    min-width: 500px;
+    margin: 0;
+    
+    } 
+
+
+}
+      
+    

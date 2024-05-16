@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rampart+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color:#131E25 ;   
+    text-align: center;
+  
+}
+ h1{
+    font-family: Bungee Shade, cursive;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+ }
+ .navlinks{
+   
+    position: sticky;
+    height: 3rem;
+    top: 0rem;
+    z-index: 100;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .navlinks a{
+   
+    width: 100px;
+    height: 40px;   
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    text-decoration:none;
+    color: white;
+    background-color:#D2B48C ;
+    border-radius: 10px;  
+    display: inline-block;
+    /* position: sticky; */
+ }
+
+ .navlinks a:hover {
+    opacity: 0.9;
+    color: red;
+  }
+ h2{
+    font-family: Rampart One,cursive;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin: 100px 0 0 0;
+ }
+
+ h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin: 100px;
+    text-decoration:underline;
+ }
+ .projects img{
+   
+    width: 19vw;
+    height: 40vh;
+    margin: 0.3rem;
+    border-radius: 10px;
+ }
+
+ .projects img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .resim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-nav{
+    margin-bottom: 1rem;
+  }
+  .send-message {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .sign-form input,
+  .sign-form textarea {
+    border: 2px solid #d2b48c;
+    border-radius: 5px;
+    background-color: black;
+    width: 50%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    line-height: 22px;
+    margin: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+  }
+  .sign-form input:focus,
+  .sign-form textarea:focus {
+    border: 2px solid rgb(188, 66, 32);
+    color: white;
+  }
+  
+  .bottom-nav a {
+    color: rgb(188, 66, 32);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+    margin: 20px 10px 10px 0;
+    text-decoration: none;
+  }
+  .bottom-nav {
+    margin-bottom: 1rem;
+  }
+  .form__button {
+    width: 50%;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 10px 0 10px 0;
+    color:rebeccapurple;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .form__button:hover {
+    padding-top: 1rem;
+    background-color: beige;
+    color: #ff0000;
+  }
+  .form__button:hover::after {
+    content: "📤";
+  }
+  #bottom-button{
+    background-color: #D2B48C;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  #bottom-button a{
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+  }
+
+  #bottom-button:hover {
+    color: #ffffff;
+    background-color: red;
+  }

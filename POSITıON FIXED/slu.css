@@ -1,0 +1,162 @@
+:root {
+    --black: #252426;
+    --white: #ffffff;
+    --bej1: #d9ae89;
+    --bej2: #d9b2a9;
+    --bej3: #a67b77;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    background-color: var(--black);
+    color: white;
+  }
+  
+  #header__top h1 {
+    font-family: "Bungee Shade", cursive;
+    color: var(--white);
+    font-size: 48px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  /* **main */
+  .nav__links {
+    background-color: var(--bej3);
+    opacity: 1;
+    position: sticky;
+    height: 3rem;
+    top: 0rem;
+    z-index: 100;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__links--a {
+    background-color: var(--bej1);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    width: 6rem;
+    font-weight: 700;
+  }
+  .nav__links--a:hover {
+    opacity: 0.5;
+    color: red;
+  }
+  
+  .projects img {
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+    margin: 0.3rem;
+  }
+  .projects img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .projects div:first-child,
+  footer div {
+    margin-bottom: 1rem;
+  }
+  .projects h3,
+  footer h2 {
+    display: inline;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+  }
+  .info p {
+    font-family: "Rampart One", cursive;
+    font-size: 3rem;
+    color: var(--bej1);
+    padding: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  .send-message {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .sign-form input,
+  .sign-form textarea {
+    border: 2px solid #d2b48c;
+    border-radius: 5px;
+    background-color: var(--black);
+    width: 50%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    line-height: 22px;
+    margin: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+  }
+  .sign-form input:focus,
+  .sign-form textarea:focus {
+    border: 2px solid rgb(188, 66, 32);
+    color: white;
+  }
+  
+  .bottom-nav a {
+    color: var(--bej2);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px;
+    margin: 20px 10px 10px 0;
+    text-decoration: none;
+  }
+  .bottom-nav {
+    margin-bottom: 1rem;
+  }
+  .form__button {
+    width: 50%;
+    background-color: var(--bej1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    padding: 10px 0 10px 0;
+    color: var(--white);
+    border-radius: 5px;
+  }
+  .form__button:hover {
+    padding-top: 1rem;
+    background-color: var(--bej3);
+    color: #ff0000;
+  }
+  .form__button:hover::after {
+    content: "📤";
+  }
+  
+  #bottom-button {
+    background-color: var(--bej1);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    border-radius: 5px;
+  }
+  #bottom-button a {
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+  }
+  
+  #bottom-button:hover {
+    color: #ffffff;
+    background-color: red;
+  }
