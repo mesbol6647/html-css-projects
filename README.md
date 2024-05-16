@@ -1,5 +1,5 @@
 ## Film Sitesi
-![Project-Gif](https://github.com/mesbol6647/html-css-projects/blob/main/film%20sitesi/img/fim.gif) 
+![Project-Gif](https://github.com/mesbol6647/html-css-projects/blob/main/film%20sitesi/img/film.gif) 
 ## Home Furniture
 ![Project-Gif](https://github.com/mesbol6647/html-css-projects/blob/main/FURNITURE/furniture.gif)
 ## Navbar-Example
